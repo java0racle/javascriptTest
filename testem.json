@@ -1,0 +1,13 @@
+{
+	"src_files": [
+        "Mocha/*.js"
+    ],
+    "launchers": {
+        "Node": {
+            "command": "mocha mochaTest.js -R tap",
+            "protocol": "tap"
+        }
+    },
+	"launch_in_dev": ["chrome","safari","firefox"],
+	"launch_in_ci": ["chrome","safari","firefox"]
+}

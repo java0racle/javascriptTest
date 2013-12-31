@@ -1,0 +1,25 @@
+ok 1 Chrome 31.0 - test by mocha my friend is 27 years old.
+not ok 2 Chrome 31.0 - test by mocha my friend is 27 years old.
+    ---
+        message: >
+            AssertionError: expected 27 to equal 28
+        stack: >
+            AssertionError: expected 27 to equal 28
+    ...
+ok 3 Safari 5.1 - test by mocha my friend is 27 years old.
+not ok 4 Safari 5.1 - test by mocha my friend is 27 years old.
+    ---
+        message: >
+            AssertionError: expected 27 to equal 28
+    ...
+ok 5 Firefox 26.0 - test by mocha my friend is 27 years old.
+not ok 6 Firefox 26.0 - test by mocha my friend is 27 years old.
+    ---
+        message: >
+            AssertionError: expected 27 to equal 28
+    ...
+
+1..6
+# tests 6
+# pass  3
+# fail  3
